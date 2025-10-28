@@ -1,0 +1,29 @@
+
+/* Add margin so Navbar doesn't overlap content */
+.main-content {
+  margin-top: 60px; /* adjust based on Navbar height */
+  padding: 1rem;
+  background-color: #1f2937; /* optional dark background */
+  min-height: 100vh;
+  color: white;
+}
+
+/* Optional global styles for tables, buttons, etc. */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #374151;
+}
+
+th {
+  background-color: #111827;
+  color: #9ca3af;
+}
+
+button {
+  cursor: pointer;
+}
