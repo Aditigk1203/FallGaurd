@@ -50,11 +50,6 @@ fall_detection_yolov7/
 ├── requirements.txt # Required dependencies
 └── README.md # Project documentation
 
-markdown
-Copy code
-
----
-
 ## 🧠 System Workflow
 
 1. **Input Capture**  
@@ -82,12 +77,8 @@ Copy code
 git clone https://github.com/<your-username>/fall-detection-yolov7.git
 cd fall-detection-yolov7
 2️⃣ Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
 3️⃣ Example requirements.txt
-makefile
-Copy code
 torch
 torchvision
 torchaudio
@@ -98,8 +89,6 @@ tqdm
 4️⃣ Verify YOLOv7 Path
 Add this to the top of your notebook/script:
 
-python
-Copy code
 import sys, os
 sys.path.append(os.path.abspath("C:/Users/aditi/Desktop/fall detection/yolov7"))
 🧪 Running the System
@@ -107,7 +96,6 @@ sys.path.append(os.path.abspath("C:/Users/aditi/Desktop/fall detection/yolov7"))
 Open crash_detection.ipynb and run all cells sequentially.
 
 ▶️ From Python Script
-bash
 Copy code
 python crash_detection.py
 The system will:
@@ -124,7 +112,6 @@ Send an email alert if a fall/crash is detected
 Edit these parameters inside your script:
 
 python
-Copy code
 sender = "your_email@gmail.com"
 password = "your_app_password"
 receiver = "target_email@gmail.com"
@@ -170,7 +157,6 @@ OpenCV
 NumPy
 
 💡 Author
-👩‍💻 Aditi [Your Last Name]
-📧 Email: your.email@example.com
-🌐 GitHub: github.com/your-username
-📍 Project maintained with ❤️ and curiosity for AI safety systems.
+👩‍💻 Aditi Krishnan
+📧 Email: Aditi.g.krishnan@gmail.com
+🌐 GitHub: github.com/aditigk1203
